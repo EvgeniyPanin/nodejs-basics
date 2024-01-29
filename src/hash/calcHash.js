@@ -21,7 +21,6 @@ const calculateHash = async () => {
         console.log(hash.digest('hex'));
         readable.close();
     })
-
 };
 
 await calculateHash();
